@@ -11,7 +11,7 @@ def get_format(tick):
     pull = tick.split("to")
     a=int(pull[0])-1
     b=int(pull[1])-1
-    return "%d %d\r\n"%(a,b)
+    return "%d %d\r\n"%(b,a)
 
 def message_build(fileread):
     """
